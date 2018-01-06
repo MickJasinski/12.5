@@ -2,11 +2,44 @@
 
 body {
     font-family: 'Nunito Sans', sans-serif;
-    background-color: #efefef;
+    color: white;
+    background-color: #1DA1F2;
 }
 
-.content {
+main {
 	text-align: center;
 	height: 100vh;
 }
 
+header {
+	margin-top: 50px;
+}
+
+.quote {
+	padding: 20px;
+}
+
+.author {
+	padding: 20px;
+}
+
+button h1{
+	font-size: 16px;
+}
+
+button, 
+.tweet {
+	display: inline-block;
+	width: 160px;
+	height: 70px;
+	color: #1DA1F2;
+	font-size: 16px;
+	background-color: white;
+	border: none;
+	border-radius: 35px;
+	margin: 10px;
+}
+
+.tweet {
+	line-height: 70px;
+}

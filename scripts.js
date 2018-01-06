@@ -5,10 +5,10 @@ var prefix = "https://cors-anywhere.herokuapp.com/";
 
 function getQuote() {
   $.getJSON(quoteUrl, createTweet);
-  $.getJSON(prefix + quoteUrl, createTweet);
-  $.ajaxSetup({
-    cache: false
-  });
+  // $.getJSON(prefix + quoteUrl, createTweet);
+  // $.ajaxSetup({
+  //   cache: false
+  // });
 }
 
 function createTweet(input) {
