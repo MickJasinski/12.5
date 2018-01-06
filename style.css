@@ -35,9 +35,17 @@ button,
 	color: #1DA1F2;
 	font-size: 16px;
 	background-color: white;
-	border: none;
+	border: 1px solid white;
 	border-radius: 35px;
 	margin: 10px;
+	transition: .3s ease;
+	cursor: pointer;
+}
+
+button:hover,
+.tweet:hover {
+	color: white;
+	background-color: #1DA1F2;
 }
 
 .tweet {
