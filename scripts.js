@@ -8,7 +8,7 @@ function getQuote() {
 }
 
 $.ajaxSetup({
-  cache: false;
+  cache: false
 });
 
 function createTweet(input) {
